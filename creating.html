@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/reg_style.css">
+        <title>BaBadoo - главная страница</title>
+    </head>
+    <body>
+        <header> 
+            <div class = 'header'>
+                <div class = 'main-header'>
+                    <div class = 'logo'>
+                        <img src = 'images/logo.png' class="img" width="55" height="50">
+                        <h1 class = 'baba'>BaBadoo</h1>
+                    </div>
+                    <div class = 'reg'>
+                        <a href = ''>Регистрация </a>
+                        /
+                        <a href="">Войти </a>
+                    </div>
+                </div>
+               
+            </div>
+        </header>
+        <main>
+            <div class = 'nav'>
+                <nav class="menu">
+                    <ul>
+                        <li class = 'active'><a href="#">Главная</a></li>
+                        <li><a href="#">Лента</a></li>
+                        <li><a href="#">Чат</a></li>
+                        <li><a href="#">Аккаунт</a></li>
+                        <li><a href="#">Избранное</a></li>
+                        <li><a href="#">Настройки</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class = 'wrapper'>
+               
+                <div class = 'registration'> 
+                    <div class = icon>
+                       <div class = 'circle'>
+                       </div>
+                       <img src="images/heart.png" width="50" height="40" id = "heart">
+                    </div>
+                    <span class = 'creator'>
+                        <b>СОЗДАТЬ АККАУНТ</b>
+                    </span>
+                    <div class = 'input'>
+                        <input class = 'name' name="name_enter" type="text" placeholder="Имя" />
+                        <input class = 'surname' name="surname_enter" type="text" placeholder="Фамилия" />
+                        <input class = 'birthday' name="birthday_enter" type="date" placeholder="Дата рождения" min="2004-04-15" />
+                        <input class = 'email' name="email_enter" type="email" placeholder="Почта" />
+                        <div class="password">
+                            <input type="password" id="password-input" placeholder="Введите пароль" name="password" value="123456">
+                            <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+                        <!--</div>  
+                        <div class = 'upload'>
+                            <input id = 'photo-upload' type="file" name="photo" multiple accept="image/jpeg">
+                        </div>
+                        !-->
+                        <div class = 'create-account'>
+                            <input type="submit" class="superbutton" name="submit" value="Создать" />
+
+                        </div>                    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+</html>

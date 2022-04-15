@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "Domine-Bold";
+    src: url('../font/Domine-Bold.ttf') format("truetype"); 
+    font-style: normal; 
+    font-weight: 700; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Domine-Bold';
+
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: #A73898;
+}
+body{
+    background: #B9AFAF;
+}
+
+.img{
+    float: left;
+    padding-top: 37px;
+    padding-bottom: 30px;
+    padding-left: 58px;
+}
+
+.baba{
+    float: left;
+    color: white;
+    padding-top: 44px;
+    padding-bottom: 30px;
+}
+.reg{
+    font-size: 24px;
+    color: white;
+    float: right;
+    padding-top: 51px;
+    padding-bottom: 30px;
+    padding-right: 32px;
+    font-weight: 700;
+
+}
+a{
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+main{
+    overflow: hidden;
+}
+
+.nav{
+    padding: 15px 25px 15px 40px;
+    background-color: #81777F;
+    margin: 0 auto;
+    
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li{
+    display: inline;
+}
+.active{
+    display: block;
+    background: #81777F;
+    width: 146px;
+    height: 51px;
+    border-radius: 10px;
+    text-align: center;
+}
+ul a{
+    font-size: 18px;
+    line-height: 45px;
+}
+.wrapper{
+    display: flex;
+}
+.registration{
+    display: flex;
+    background-color: white;
+    width: 490px;
+    height: 621px;
+    margin-left: 700px;
+    margin-top: 100px;
+    border-radius: 30px;
+
+}
+
+.circle{
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    width: 73px;
+    height: 66px;
+    border-radius: 50%;
+    margin-left: 207px;
+    top: -32px;
+
+}
+#heart{
+    position:relative;
+    margin-left: 219px;
+    top: -84px;
+}
+.input{
+    position: relative;
+    margin-top: 50px;
+    margin-right:200px;
+}
+.creator{
+    position: absolute;
+    width: 357px;
+    height: 36px;
+    left: 845px;
+    top: 350px;
+    font-size: 21px;
+}
+.name{
+    position: absolute;
+    left: -245px;
+    top: 65px;
+    background-color: #EBEBEB;
+    border-radius: 60px;
+    width: 432px;
+    height: 50px;
+    border: none;
+}
+.surname{
+    position: absolute;
+    left: -245px;
+    top: 130px;
+    background-color: #EBEBEB;
+    border-radius: 60px;
+    width: 432px;
+    height: 50px;
+    border: none;
+}
+.birthday{
+    position: absolute;
+    left: -245px;
+    top: 195px;
+    background-color: #EBEBEB;
+    border-radius: 60px;
+    width: 423px;
+    height: 50px;
+    border: none;
+}
+.email{
+    position: absolute;
+    left: -245px;
+    top: 260px;
+    background-color: #EBEBEB;
+    border-radius: 60px;
+    width: 432px;
+    height: 50px;
+    border: none;
+}
+#password-input{
+    position: absolute;
+    left: -245px;
+    top: 325px;
+    background-color: #EBEBEB;
+    border-radius: 60px;
+    width: 432px;
+    height: 50px;
+    border: none;
+}
+.password-control {
+    position: absolute;
+    top: 338px;
+    left: 160px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view {
+    background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+#photo-upload{
+    position: relative;
+    overflow: hidden;
+    background-color: #EBEBEB;
+    width: 73px;
+    height: 66px;
+    border-radius: 50%;
+    margin-left: 207px;
+    top: 430px;
+    right: 270px;
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 17px;
+
+}
+input[type="text"]{
+    padding-left: 10px;
+}
+input[type="date"]{
+    padding-left: 20px;
+    opacity: 60%;
+    font-size: 18px;
+}
+input[type="email"]{
+    padding-left: 10px;
+}
+input[type="password"]{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.superbutton {
+    position: relative;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    background: #A73898;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    top: 492px;
+    right: 199px
+}
+
+footer{
+    overflow:hidden;
+    color:  white;
+    background-color: #A73898;
+    width: 100%;
+    height: 68px;
+}
+
+.copyrite{
+    float:left;
+    padding: 24px 0 31px 70px;
+}
+.contacts{
+    float: right;
+    padding: 15px 60px 13px 0;
+
+}
