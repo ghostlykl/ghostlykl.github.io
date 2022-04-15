@@ -175,7 +175,7 @@ footer{
     color:  white;
     overflow:  hidden;
     background-color: #A73898;
-    width: 100%;
+    width: auto;
     height: 68px;
     font-size: 14px
 }
