@@ -235,7 +235,9 @@ input[type="password"]{
 
 footer{
     overflow:hidden;
-    color:  white;
+    position:fixed;
+    bottom:0;
+    color: white;
     background-color: #A73898;
     width: 100%;
     height: 68px;
